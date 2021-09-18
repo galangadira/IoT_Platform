@@ -121,3 +121,6 @@
 * Untuk mengecekk data pada database,
 * > USE IOT001;
 * > SELECT * FROM IOT_TRX_DATA;
+
+## Custom your data base on your needs
+* I prever using this IoT platform because, I want to remote my sensor in many area

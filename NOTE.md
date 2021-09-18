@@ -26,3 +26,7 @@ return msg;
 ## JSON SAMPLE UNTUK BLOCK INJECT,
 {"DATETIME" : 1590714329,"DEVICEID" : "A1500001","LATITUDE" : -6.121435, "LONGITUDE" :106.774124, "VALUE":0.75}
 
+
+## 4
+## That's All only example to make a table and connecting between Json to mysql
+
