@@ -1,4 +1,4 @@
-## Membuat Key SSH
+## 1. Membuat Key SSH
 jalankan perintah ssh-keygen pada terminal. Kemudian inputkan id (identitas) SSH anda. untuk passpharse dikosongkan saja. 
 * pada terminal panggil direktori : $ cd ~/.ssh
 
@@ -7,7 +7,7 @@ perintah ini berfungsi untuk meng-generate public/private rsa key.
 * agar file yang terbentuk menjadi rsa_id.pub dan rsa_id. pada "/home/user/.ssh/id_rsa" ketika ssh-keygen dijalankan tekan enter saja tanpa mengisi keterangan apapun. sampai muncul baris akhir SHA256. 
 * Maka didalam directory ~/.ssh $ ls akan muncul file id_rsa.pub, id_rsa, dan known_hosts.
 
-## Jalankan SSH Agent dan Load SSH Key
+## 2. Jalankan SSH Agent dan Load SSH Key
 * Untuk memastikan apakah SSH Agent sudah berjalan atau tidak, gunakan perintah :
 > $ ps -e | grep [s]sh-agent
 
@@ -21,7 +21,7 @@ Sebelumnya ambil dulu Key public yang sudah anda buat, gunakan perintah cat.
 
 * Lalu masuk ke "Setting>SSH and GPG Keys" Buat kunci baru dengan mengetik new SSH Key. lalu masukkan key yang sudah dibuat. 
 
-## Uji Konektivitas
+## 4. Uji Konektivitas
 Ketik perintah berikut untuk menguji konektivitas SSH ke Github
 > $ ssh -T git@github.com
 
