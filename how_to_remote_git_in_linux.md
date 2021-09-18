@@ -39,3 +39,8 @@ Coba clone sebuah repository dengan SSH dan lakukan push.
 * https://jhooq.com/github-permission-denied-publickey/ 
 * https://www.niagahoster.co.id/blog/cara-menggunakan-ssh/ 
 
+## Tambahan
+To remote github type this code in your terminal :
+> e.g : git@github.com:galangadira/IoT_Platform_001.git 
+To remove the remote type this code :
+> e.g : git remote remove origin
