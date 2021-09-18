@@ -44,3 +44,5 @@ Coba clone sebuah repository dengan SSH dan lakukan push.
 > e.g : git@github.com:galangadira/IoT_Platform_001.git 
 * To remove the remote type this code :
 > e.g : git remote remove origin
+* To add remote 
+> e.g : git remote add origin git@github.com:galangadira/IoT_Platform_001.git
