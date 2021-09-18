@@ -37,4 +37,5 @@ Coba clone sebuah repository dengan SSH dan lakukan push.
 * https://www.petanikode.com/github-ssh/ 
 * https://help.github.com/articles testing-your-ssh-connection/
 * https://jhooq.com/github-permission-denied-publickey/ 
+* https://www.niagahoster.co.id/blog/cara-menggunakan-ssh/ 
 
