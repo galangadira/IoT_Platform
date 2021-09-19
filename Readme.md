@@ -52,43 +52,43 @@
 
 ##  Install NodeJs
 * Install NodeJS, jalankan pada terminal,
-* $ sudo apt install nodejs
+> $ sudo apt install nodejs
 
 * Install NPM, jalankan pada terminal,
-* $ sudo apt install npm
+> $ sudo apt install npm
 
 * Check NodeJS & NPM,
-* $ nodejs -v
-* $ npm -v
+> $ nodejs -v
+> $ npm -v
 
 ## Install Node-red
 * Install Node Red via NMP
-* $ sudo npm install -g --unsafe-perm node-red node-red-admin
+> $ sudo npm install -g --unsafe-perm node-red node-red-admin
 
 * if you are using linux mint 19.1 and facing a trouble when install node red, teh do this step;
-* $ sudo sudo apt update 
-* $ sudo apt install snapd
-* $ sudo snap install node-red
+> $ sudo sudo apt update 
+> $ sudo apt install snapd
+> $ sudo snap install node-red
 
 * Buka browser dan akses URL http://<IP Linux Server>:1880
-* 
+* link : https://nodered.org/docs/getting-started/raspberrypi 
 
 ## Install Grafana (versi 6.7.0)
 * Install grafana via.deb package (ARM64/ARMv8/Aarch64) --> RPi 2 B+, 3B, 3B+, 4
-* $ sudo apt-get install -y adduser libfontconfig1
-* $ wget https://dl.grafana.com/oss/release/grafana_6.7.0_arm64.deb
-* $ sudo dpkg -i grafana_6.7.0_arm64.deb
+> $ sudo apt-get install -y adduser libfontconfig1
+> $ wget https://dl.grafana.com/oss/release/grafana_6.7.0_arm64.deb
+> $ sudo dpkg -i grafana_6.7.0_arm64.deb
 
 * Install grafana via .deb package (x64)
-* $ sudo apt-get install -y adduser libfontconfig1
-* $ wget https://dl.grafana.com/oss/release/grafana_6.7.0_amd64.deb
-* $ sudo dpkg -i grafana_6.7.0_amd64.deb
+> $ sudo apt-get install -y adduser libfontconfig1
+> $ wget https://dl.grafana.com/oss/release/grafana_6.7.0_amd64.deb
+> $ sudo dpkg -i grafana_6.7.0_amd64.deb
 
 * Start grafana server,
-* $ sudo systemctl start grafana-server
+> $ sudo systemctl start grafana-server
 
 * check grafana status, 
-* $ sudo systemctl status grafana-server
+> $ sudo systemctl status grafana-server
 
 * Check grafana UI pada URL : httpp://<IP Linux Server>:3000
 
